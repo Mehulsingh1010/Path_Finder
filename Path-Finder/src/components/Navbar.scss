@@ -1,0 +1,137 @@
+ button{
+        text-decoration: none;
+        border: none;
+        background-color:#007bff;
+    }
+
+  .navbar{
+    border-bottom: solid 3px white;
+    // border-bottom: 2.9px solid rgb(75, 75, 218);
+  
+    position: fixed;
+    top:0;
+    background-color:#007bff;
+    z-index: 999;
+
+    .maindiv{
+        
+        .logo img{
+            border-radius: 15px;
+        }
+        .login-section{
+            a{
+                text-decoration: none;
+                color : rgb(149, 50, 50);
+            }
+        }
+    background-color: #007bff;
+    padding-bottom: 10px;
+
+    // z-index: 9999;
+    // position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+   
+    // margin-right: 370px;
+    padding-left: 100px;
+    padding-right: 450px;
+    width: 100vw;
+    gap: 80px;
+    .login-section button{
+        border: 20px;
+        text-decoration-line: none;
+        position: relative;
+        margin-left: 90px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        span{
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            border-radius: 18px;
+        }
+    }
+   
+    }
+}
+
+// .Content a{
+//     margin-left: 38px;
+//     color:inherit;
+//     text-decoration: none;
+// }
+
+
+.Content a{
+
+    position:relative;
+    // background-color: red;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 66px;
+}
+.Content a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+   bottom: -6px ;
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transform: scaleX(0) ;
+    transition:transform .5s;
+}
+.Content a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+nav button a.active {  
+    color: rgb(68, 45, 128);
+    background-color: red;
+    /* Add any other styles to indicate the active link */
+  }
+ .Content button {
+    text-decoration: none;
+    width: 130px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    span{
+            color: #007bff;
+        }}
+
+
+
+
+.nav{
+    gap:5px;
+    button{
+        
+        background-color: rgb(15, 15, 15);
+        padding: 9px;
+        border-radius: 10%;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+    // width: 100px;
+    // height: 100px;
+    // background-color: black;
+    position: absolute;
+    right: 130px;
+    z-index: 999;
+    // background-color: white;
+    // padding-left: 320px;
+    // padding-right: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
